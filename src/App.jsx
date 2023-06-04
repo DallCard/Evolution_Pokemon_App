@@ -1,10 +1,18 @@
+import { Button } from "./components/Button"
+import './sass/App.scss'
 
-function App() {
-    return (
-      <div>
-        <h3>Evolucion de Pokemon</h3>
-      </div>
-    )
-  }
-  
-  export default App
+const App = ()=>{
+    return(
+   <>
+
+   { /*tarjetas*/ }
+   <div className="buttons-container">
+     <Button text='Anterior' />
+     <Button text='Siguiente'/>
+    
+    </div>
+
+   </> )
+}
+
+export{App}
